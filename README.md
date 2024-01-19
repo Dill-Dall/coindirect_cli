@@ -32,7 +32,7 @@ Usage:
   cmd [flags]
 
 Flags:
-  -c, --currencymap      return a map of which currencies are used by which lands
+  -c, --currencymap      return a map of which currencies are used by which countries
   -d, --descending       descending sort by sortkey, default is ascending order
   -h, --help             help for cmd
   -s, --sortkey string   id|name|currency (default "id")
