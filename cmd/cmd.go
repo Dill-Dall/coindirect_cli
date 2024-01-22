@@ -30,6 +30,6 @@ func Init() {
 	}
 	client.Flags().StringP("sortkey", "s", "id", "id|name|currency")
 	client.Flags().BoolP("descending", "d", false, "descending sort by sortkey, default is ascending order")
-	client.Flags().BoolP("currencymap", "c", false, "return a map of which currencies are used by which lands")
+	client.Flags().BoolP("currencymap", "c", false, "return a map of which currencies are used by which countries")
 	client.Execute()
 }
