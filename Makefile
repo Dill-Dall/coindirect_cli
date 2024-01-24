@@ -20,7 +20,6 @@ build:
 
 # Tag the latest commit and create a release
 release:
-	chmod +x download.sh
 	git tag $(VERSION)
 	git push origin $(VERSION)
 	gh release create $(VERSION) -t $(VERSION) -n "Release $(VERSION)" $(MAC_ARM_BINARY) $(LINUX_BINARY) $(WINDOWS_BINARY) download.sh
